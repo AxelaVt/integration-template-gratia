@@ -1,3 +1,1 @@
-# template-psd
-Gratia
-Wireframe
+# integration template gratia
