@@ -2,10 +2,10 @@
 include "header.php";
  ?>
 
-<body class="background">
+<body>
 
-<main class="background1">
-
+<main>
+<div class="background1">
   <div id="carouselExampleControls" style="height: 80vh;" class="row align-items-center carousel slide" data-interval="false" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -28,21 +28,33 @@ include "header.php";
     </a>
   </div>
 
+  <div class="perfection d-flex justify-content-center">
+    and perfection is not a detail
+    <img src="img.g/arrow.png" alt="flèche vers le bas">
+  </div>
+
+  <div class="d-flex justify-content-end">
+    <button type="button" class="btn-book btn-light">BOOK A TABLE</button>
+</div>
   <div class="icon-bar">
-  <a href="#section1">1</a>
-  <a href="#section2">2</a>
-  <a href="#section3">3</a>
-</div>
+    <a href="#section1">01</a>
+    <a href="#section2">02</a>
+    <a href="#section3">03</a>
+  </div>
 
-<div id="section1" class="vh-100">
 
-</div>
-<div id="section2" class="vh-100">
 
-</div>
-<div id="section3" class="vh-100">
+  </div>
 
-</div>
+  <div id="section1" class="vh-100">
+
+  </div>
+  <div id="section2" class="vh-100">
+
+  </div>
+  <div id="section3" class="vh-100">
+
+  </div>
 
 </main>
 

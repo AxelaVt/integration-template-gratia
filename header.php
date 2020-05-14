@@ -12,30 +12,31 @@
 
 <header>
 
-  <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img src="img.g/logo.png" alt="logo gratia"> Gratia</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="img.g/logo.png" alt="logo gratia"> Gratia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <div class="mr-auto"> </div>
-     <div class="my-2 my-lg-0">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Menu</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="mr-auto"> </div>
+      <div class="my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 </nav>
 
 </header>
