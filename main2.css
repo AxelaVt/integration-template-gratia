@@ -36,36 +36,136 @@
 /* ----- vertical nav ----- */
 .icon-bar {
   width: 15vh;
+  margin-top: -22vh;
 }
 
 .icon-bar a {
   display: block;
-  padding-bottom: 4vh;
+  padding-bottom: 8vh;
   padding-right: 2vh;
   padding-left: 2vh;
   transition: all 0.8s ease;
   color: white;
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 .icon-bar a:hover {
   background-color: #000;
 }
 
-.perfection{
+.perf{
   color: #1C2434;
+  margin-top: 10vh;
+  font-style: italic;
 }
 
 .btn-book {
   color: #D49A63;
   font-weight: bold;
+  background-color: #141B2A;
+  border-color: #1C2434;
+  margin-right: 10vh;
+  margin-top: -7vh;
+  height: 5vh;
 }
 
 
 /* ----- sections ----- */
 #section1{
   background-image: url("img.g/main-BG.png");
+  background-position: 50% 33%;
 }
+
+.perfection{
+  padding-top: 10vh;
+  font-size: 6.5vh;
+  font-weight: 600;
+}
+
+.lorem{
+  font-style: italic;
+  color: #8c8c8c;
+}
+
+.firstimg{
+  position: relative;
+  text-align: center;
+  color: #D49A63;
+  font-size: 4vh;
+  font-weight: 600;
+  margin-top: 15vh;
+  margin-right: -50vh;
+}
+
+.desserts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr{
+  width : 15%;
+  margin-top: -1vh;
+}
+
+.lorembis{
+  font-style: italic;
+  color: #cbcbcb;
+  font-size: 1.5vh;
+  white-space: nowrap;
+}
+.secimg{
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+  font-weight: 600;
+  margin-top: 7vh;
+}
+
+.smoothies {
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr{
+  width : 15%;
+  margin-top: -1vh;
+}
+
+.thirdimg{
+  position: relative;
+  text-align: center;
+  color: #D49A63;
+  font-size: 4vh;
+  font-weight: 600;
+  margin-top: -46.5vh;
+}
+
+.breakfast {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+hr{
+  width : 15%;
+  margin-top: -1vh;
+}
+
+.btn-check {
+  color: #D49A63;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 7vh;
+  height: 5vh;
+}
+
+
 #section2{
   background-image: url("img.g/photo-BG.png");
   background-size: cover;

@@ -27,28 +27,71 @@ include "header.php";
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-  <div class="perfection d-flex justify-content-center">
+<div class="bottom">
+    <div class="perf d-flex justify-content-center">
     and perfection is not a detail
-    <img src="img.g/arrow.png" alt="flèche vers le bas">
   </div>
 
+  <div class="text-center">
+    <img src="img.g/arrow.png" class="rounded" alt="flèche vers le bas">
+  </div>
+
+
   <div class="d-flex justify-content-end">
-    <button type="button" class="btn-book btn-light">BOOK A TABLE</button>
+    <button type="button" class="btn-book">BOOK A TABLE</button>
 </div>
+
   <div class="icon-bar">
     <a href="#section1">01</a>
     <a href="#section2">02</a>
     <a href="#section3">03</a>
   </div>
 
-
+</div>
 
   </div>
 
   <div id="section1" class="vh-100">
 
-  </div>
+    <h1 class="perfection text-center">PERFECTION</h1>
+      <div class="lorem text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+
+      <div class="firstimg rounded float-left">
+        <img src="img.g/dessert.png" alt="desserts" width="400" height="325">
+        <div class="desserts"> <p>DESSERTS</p>
+          <hr size="1" align="center" color="#D49A63">
+          <div class="lorembis">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+          </div>
+        </div>
+
+      <div class="secimg rounded text-center">
+        <img src="img.g/smoothie.png" alt="smoothies" width="350" height="435">
+        <div class="smoothies"><p>SMOOTHIES</p>
+          <hr size="1" align="center" color="white">
+           <div class="lorembis">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+           </div>
+         </div>
+       </div>
+
+      <div class="thirdimg rounded float-right">
+        <img src="img.g/breakfast.png" alt="breakfast" width="400" height="325">
+        <div class="breakfast"><p>BREAKFAST</p>
+         <hr size="1" align="center" color="#D49A63">
+          <div class="lorembis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div></div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn-check">CHECK OTHER OFFERS</button>
+      </div>
+
+      </div>
+
+
+</div>
   <div id="section2" class="vh-100">
 
   </div>
