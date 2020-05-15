@@ -34,12 +34,14 @@ html {
   width: 50vh;
   background-size: 100%, 100%;
   background-image: none;
+  padding-top: 4.5vh;
 }
 
 .carousel-control-next-icon:after
 {
      content: '>';
      font-size: 30vh;
+     font-weight: 100;
      color: #1C2434;
      padding-left: 45vh;
 }
@@ -47,6 +49,7 @@ html {
 .carousel-control-prev-icon:after {
      content: '<';
      font-size: 30vh;
+     font-weight: 100;
      color: #1C2434;
      padding-right: 65vh;
      margin-left: -18vh;
@@ -56,6 +59,7 @@ html {
 .icon-bar {
   margin-top: auto;
   margin-bottom: 5vh;
+  z-index: 1;
 }
 
 .icon-bar a {
@@ -101,12 +105,19 @@ html {
 .btn-book {
   color: #D49A63;
   font-weight: bold;
-  background-color: #141B2A;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
   border-color: #1C2434;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   margin-left: 170vh;
   margin-bottom: 2.5vh;
   height: 5vh;
+  width: 18vh;
 }
+
 
 /* ----- sections ----- */
 #section1{
@@ -188,7 +199,13 @@ hr{
 .btn-check {
   color: #D49A63;
   font-weight: bold;
-  background-color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
+  border-color: #cbcbcb;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
   margin-top: 7vh;
   height: 5vh;
 }
@@ -243,6 +260,15 @@ hr{
 #hrdemerde {
   transform: translateY(-30px);
 }
+
+/* #hrdemerde:after {
+    background: #fff;
+    content: "";
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+} */
+
 
 #gratia{
   font-weight: bold;

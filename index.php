@@ -47,7 +47,7 @@ include "header.php";
 
 
         <div class="d-flex align-items-end justify-content-end">
-          <button type="button" class="btn-book">BOOK A TABLE</button>
+          <button type="button" class="btn-book shadow-none">BOOK A TABLE</button>
         </div>
 
 
@@ -145,8 +145,10 @@ include "header.php";
       </div>
 
       <div class="foot rounded text-center mt-2">
+
         <img src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-4">
         <hr id="hrdemerde"size=5 color="#cbcbcb" width="100%">
+
         <span id="gratia">Gratia Restaurant</span>
         <p class="lorembis mb-4">Copyright 2016. All reserved by symu</p>
         <hr size=3 align="center" color="#cbcbcb" width="8%">
