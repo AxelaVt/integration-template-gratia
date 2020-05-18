@@ -5,6 +5,7 @@ include "header.php";
 <body>
 
   <main>
+
     <div class="background1 d-flex vh-100 container-fluid">
 
       <div class="icon-bar d-flex flex-column col-1">
@@ -33,7 +34,6 @@ include "header.php";
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-
       </div>
 
       <div class="bottom">
@@ -49,11 +49,7 @@ include "header.php";
         <div class="d-flex align-items-end justify-content-end">
           <button type="button" class="btn-book shadow-none">BOOK A TABLE</button>
         </div>
-
-
-
       </div>
-
     </div>
 
     <div id="section1" class="vh-100">
@@ -95,11 +91,9 @@ include "header.php";
       <div class="d-flex justify-content-center">
         <button type="button" class="btn-check">CHECK OTHER OFFERS</button>
       </div>
-
     </div>
 
     <div id="section2" class="vh-100 d-flex align-items-center">
-
       <div class="jumbotron jumbotron-fluid d-flex text-center py-5" style="width: 100vh; height:50vh; background-color: white;">
         <div class="container-fluid mx-5 border">
           <h1 class="details display-4 mt-5 mb-4">DETAILS</h1>
@@ -107,7 +101,6 @@ include "header.php";
           <button type="button" class="btn-check mt-3">PREPARATION OF OUR DISHES</button>
         </div>
       </div>
-
     </div>
 
     <div id="section3" class="vh-100">
@@ -145,25 +138,18 @@ include "header.php";
       </div>
 
       <div class="foot rounded text-center mt-2">
-
-        <img src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-4">
+        <img class="logodemerde" src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-4">
         <hr id="hrdemerde"size=5 color="#cbcbcb" width="100%">
-
         <span id="gratia">Gratia Restaurant</span>
         <p class="lorembis mb-4">Copyright 2016. All reserved by symu</p>
         <hr size=3 align="center" color="#cbcbcb" width="8%">
         <div class="row my-4 justify-content-center">
-          <img src="img.g/FB.png" alt="logo facebook" width="1.5%" height="1.5%" class="mx-2">
-          <img src="img.g/TW.png" alt="logo twitter" width="1.5%" height="1.5%" class="mx-2">
-          <img src="img.g/IG.png" alt="logo instagram" width="1.5%" height="1.5%" class="mx-2">
-
-
+          <a target="_blank" href="https://fr-fr.facebook.com/"><img src="img.g/FB.png" alt="logo facebook" width="1.5%" height="1.5%" class="mx-2"></a>
+          <a target="_blank" href="https://twitter.com/explore"><img src="img.g/TW.png" alt="logo twitter" width="1.5%" height="1.5%" class="mx-2"></a>
+          <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" width="1.5%" height="1.5%" class="mx-2"></a>
         </div>
       </div>
-
-
     </div>
-
   </main>
 
 <?php

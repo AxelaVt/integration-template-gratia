@@ -39,11 +39,11 @@ html {
 
 .carousel-control-next-icon:after
 {
-     content: '>';
-     font-size: 30vh;
-     font-weight: 100;
-     color: #1C2434;
-     padding-left: 45vh;
+  content: '>';
+  font-size: 30vh;
+  font-weight: 100;
+  color: #1C2434;
+  padding-left: 42vh;
 }
 
 .carousel-control-prev-icon:after {
@@ -74,8 +74,8 @@ html {
 
 .icon-bar a:hover {
   background-color: auto;
-  color: #D49A63; /* le chiffre change de couleur */
-  text-decoration: none; /* enlève le trait sous le chiffre */
+  color: #D49A63;
+  text-decoration: none;
 
 }
 
@@ -95,11 +95,11 @@ html {
   color: #1C2434;
   font-style: italic;
   align-items: center;
-  margin-bottom: -2vh;
+  margin-bottom: -5vh;
 }
 
 .arrow{
-  margin-bottom: -9vh;
+  margin-bottom: -15vh;
 }
 
 .btn-book {
@@ -113,11 +113,10 @@ html {
   overflow: hidden;
   outline:none;
   margin-left: 170vh;
-  margin-bottom: 2.5vh;
+  margin-bottom: 5vh;
   height: 5vh;
   width: 18vh;
 }
-
 
 /* ----- sections ----- */
 #section1{
@@ -257,18 +256,16 @@ hr{
   font-size: 2.5vh;
 }
 
-#hrdemerde {
-  transform: translateY(-30px);
+.logodemerde{
+  position : relative;
+  z-index: 2;
 }
 
-/* #hrdemerde:after {
-    background: #fff;
-    content: "";
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
-} */
-
+#hrdemerde {
+  transform: translateY(-30px);
+  position: relative;
+  z-index: 1;
+}
 
 #gratia{
   font-weight: bold;
