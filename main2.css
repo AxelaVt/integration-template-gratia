@@ -42,7 +42,7 @@ html {
   content: '>';
   font-size: 30vh;
   font-weight: 100;
-  color: #1C2434;
+  color: white;
   padding-left: 42vh;
 }
 
@@ -50,7 +50,7 @@ html {
      content: '<';
      font-size: 30vh;
      font-weight: 100;
-     color: #1C2434;
+     color: white;
      padding-right: 65vh;
      margin-left: -18vh;
 }
@@ -95,7 +95,7 @@ html {
   color: #1C2434;
   font-style: italic;
   align-items: center;
-  margin-bottom: -5vh;
+  /* margin-bottom: -5vh; */
 }
 
 .arrow{
@@ -122,6 +122,8 @@ html {
 #section1{
   background-image: url("img.g/main-BG.png");
   background-position: 50% 33%;
+  width: 100%;
+  height: auto;
 }
 
 .perfection{
@@ -133,66 +135,50 @@ html {
 .lorem{
   font-style: italic;
   color: #8c8c8c;
+  padding-bottom: 15vh;
 }
 
-.firstimg{
-  position: relative;
-  text-align: center;
+.background-img-height{
+  height: 250px;
+}
+
+#img1{
+background-image: url(img.g/dessert.png);
+background-position: center;
+}
+
+#img2{
+background-image: url(img.g/smoothie.png);
+background-position: center;
+}
+
+#img3{
+background-image: url(img.g/breakfast.png);
+background-position: center;
+}
+
+.dessert-breakfast{
   color: #D49A63;
   font-size: 4vh;
   font-weight: 600;
-  margin-top: 15vh;
-  margin-right: -50vh;
 }
 
-.desserts {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-hr{
-  margin-top: -1vh;
+#smoothies {
+  color: black;
+  font-size: 4vh;
+  font-weight: 600;
 }
 
 .lorembis{
   font-style: italic;
   color: #cbcbcb;
   font-size: 1.5vh;
-  white-space: nowrap;
 }
 
-.secimg{
-  position: relative;
-  text-align: center;
-  color: black;
-  font-size: 4vh;
-  font-weight: 600;
-  margin-top: 7vh;
-}
-
-.smoothies {
-  position: absolute;
-  top: 45vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.thirdimg{
-  position: relative;
-  text-align: center;
-  color: #D49A63;
-  font-size: 4vh;
-  font-weight: 600;
-  margin-top: -46.5vh;
-}
-
-.breakfast {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#lor{
+  font-style: italic;
+  color: #8c8c8c;
+  font-size: 1.8vh;
 }
 
 .btn-check {
@@ -205,7 +191,8 @@ hr{
   cursor:pointer;
   overflow: hidden;
   outline:none;
-  margin-top: 7vh;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
   height: 5vh;
 }
 

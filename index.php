@@ -6,7 +6,7 @@ include "header.php";
 
   <main>
 
-    <div class="background1 d-flex vh-100 container-fluid">
+    <!-- <div class="background1 row d-flex vh-100 container-fluid">
 
       <div class="icon-bar d-flex flex-column col-1">
         <a href="#section1" class="effetBar">01</a>
@@ -50,50 +50,55 @@ include "header.php";
           <button type="button" class="btn-book shadow-none">BOOK A TABLE</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div id="section1" class="vh-100">
 
+    <div id="section1" class="vh-100 container-fluid">
       <h1 class="perfection text-center">PERFECTION</h1>
       <div class="lorem text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
 
-      <div class="firstimg rounded float-left">
-        <img src="img.g/dessert.png" alt="desserts" width="400" height="325">
-        <div class="desserts"> <p>DESSERTS</p>
-            <hr size="1" align="center" width ="15%" color="#D49A63">
-            <div class="lorembis">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </div>
-        </div>
-      </div>
 
-      <div class="secimg rounded text-center">
-        <img src="img.g/smoothie.png" alt="smoothies" width="350" height="435">
-        <div class="smoothies"><p>SMOOTHIES</p>
-          <hr size="1" align="center" width ="15%" color="white">
-          <div class="lorembis">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </div>
-        </div>
-      </div>
+<div class="row align-items-center d-flex justify-content-between" style="height: 60vh">
+<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-75 d-inline-block" id="img1">
+  <div class="align-self-center ml-auto mr-auto text-center">
+    <p class="dessert-breakfast">DESSERTS</p>
+    <hr size="1" width ="15%" color="#D49A63">
+  <div class="lorembis">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  </div>
+</div>
 
-      <div class="thirdimg rounded float-right">
-        <img src="img.g/breakfast.png" alt="breakfast" width="400" height="325">
-        <div class="breakfast"><p>BREAKFAST</p>
-          <hr size="1" align="center" width ="15%" color="#D49A63">
-          <div class="lorembis"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </div>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center">
-        <button type="button" class="btn-check">CHECK OTHER OFFERS</button>
-      </div>
+</div>
+<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-100 d-inline-block" id="img2">
+  <div class="align-self-end ml-auto mr-auto text-center mb-5">
+    <p id="smoothies">SMOOTHIES</p>
+    <hr size="1" width ="15%" color="white">
+    <div id="lor">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </div>
+</div>
+</div>
+<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-75 d-inline-block" id="img3">
+  <div class="align-self-center ml-auto mr-auto text-center">
+    <p class="dessert-breakfast">BREAKFAST</p>
+    <hr size="1" width ="15%" color="#D49A63">
+  <div class="lorembis">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  </div>
+</div>
+</div>
+</div>
 
-    <div id="section2" class="vh-100 d-flex align-items-center">
+  <div class="align-self-center ml-auto mr-auto mt-auto text-center">
+  <button type="button" class="btn-check">CHECK OTHER OFFERS</button>
+</div>
+
+
+
+
+    <!-- <div id="section2" class="vh-100 d-flex align-items-center">
       <div class="jumbotron jumbotron-fluid d-flex text-center py-5" style="width: 100vh; height:50vh; background-color: white;">
         <div class="container-fluid mx-5 border">
           <h1 class="details display-4 mt-5 mb-4">DETAILS</h1>
@@ -101,9 +106,9 @@ include "header.php";
           <button type="button" class="btn-check mt-3">PREPARATION OF OUR DISHES</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div id="section3" class="vh-100">
+    <!-- <div id="section3" class="vh-100">
 
       <h1 class="perfection text-center">HOW WE REACH THIS ?</h1>
       <div class="lorem text-center">
@@ -144,11 +149,11 @@ include "header.php";
         <p class="lorembis mb-4">Copyright 2016. All reserved by symu</p>
         <hr size=3 align="center" color="#cbcbcb" width="8%">
         <div class="row my-4 justify-content-center">
-          <a target="_blank" href="https://fr-fr.facebook.com/"><img src="img.g/FB.png" alt="logo facebook" width="1.5%" height="1.5%" class="mx-2"></a>
-          <a target="_blank" href="https://twitter.com/explore"><img src="img.g/TW.png" alt="logo twitter" width="1.5%" height="1.5%" class="mx-2"></a>
-          <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" width="1.5%" height="1.5%" class="mx-2"></a>
+          <a target="_blank" href="https://fr-fr.facebook.com/"><img src="img.g/FB.png" alt="logo facebook" class="mx-2"></a>
+          <a target="_blank" href="https://twitter.com/explore"><img src="img.g/TW.png" alt="logo twitter" class="mx-2"></a>
+          <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" class="mx-2"></a>
         </div>
-      </div>
+      </div>-->
     </div>
   </main>
 
