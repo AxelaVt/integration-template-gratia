@@ -6,15 +6,19 @@ include "header.php";
 
   <main>
 
-    <!-- <div class="background1 row d-flex vh-100 container-fluid">
-
+    <div class="background1 vh-100 container-fluid">
+<div class="smaller row">
       <div class="icon-bar d-flex flex-column col-1">
         <a href="#section1" class="effetBar">01</a>
         <a href="#section2" class="effetBar">02</a>
         <a href="#section3" class="effetBar">03</a>
       </div>
 
-      <div id="carouselExampleControls" style="height: 80vh;" class="row d-flex flex-column justify-content-center carousel slide" data-interval="false" data-ride="carousel">
+      <div class="col-lg-2">
+
+      </div>
+
+      <div id="carouselExampleControls" style="height: 80vh;" class="d-flex flex-column justify-content-center carousel slide col-sm-12 col-md-10 col-lg-6" data-interval="false" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img.g/slider1.png" class="d-block w-100" alt="planche à découper + couteau">
@@ -35,8 +39,13 @@ include "header.php";
             <span class="sr-only">Next</span>
           </a>
       </div>
-
-      <div class="bottom">
+</div>
+      <div class="col-lg-3">
+      </div>
+      <div class="smaller row align-items-center d-flex justify-content-between mt-5">
+      <div class="col-sm-12 col-md-12 col-lg-4">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4">
         <div class="perf d-flex justify-content-center">
         and perfection is not a detail
         </div>
@@ -44,13 +53,14 @@ include "header.php";
         <div class="text-center">
           <img src="img.g/arrow.png" class="arrow rounded" alt="flèche vers le bas">
         </div>
-
-
-        <div class="d-flex align-items-end justify-content-end">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="med">
           <button type="button" class="btn-book shadow-none">BOOK A TABLE</button>
         </div>
-      </div>
-    </div> -->
+    </div>
+    </div>
+  </div>
 
     <div id="section1" class="vh-100 container-fluid">
           <h1 class="titre text-center">PERFECTION</h1>
