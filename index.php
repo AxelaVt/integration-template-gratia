@@ -53,7 +53,7 @@ include "header.php";
     </div> -->
 
     <div id="section1" class="vh-100 container-fluid">
-          <h1 class="perfection text-center">PERFECTION</h1>
+          <h1 class="titre text-center">PERFECTION</h1>
           <div class="lorem text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </div>
@@ -68,7 +68,6 @@ include "header.php";
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </div>
           </div>
-
           </div>
           <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-100 d-inline-block" id="img2">
             <div class="align-self-end ml-auto mr-auto text-center mb-5">
@@ -110,52 +109,54 @@ include "header.php";
       </div>
     </div>
 
-    <!-- <div id="section3" class="vh-100">
+    <div id="section3" class="vh-100">
 
-      <h1 class="perfection text-center">HOW WE REACH THIS ?</h1>
+      <h1 class="titre text-center">HOW WE REACH THIS ?</h1>
       <div class="lorem text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
 
-      <div class="firstimg rounded float-left">
-        <img src="img.g/4.png" alt="chiffre 4" width="400" height="325">
-        <div class="dfb"> <p>DIFFERENT LOCATIONS</p>
+      <div class="smaller row align-items-center d-flex justify-content-between mb-5" style="height: 40vh; width:100%">
+      <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img4">
+        <div class="align-self-center ml-auto mr-auto text-center">
+            <p class="dfb">DIFFERENT LOCATIONS</p>
+              <div class="lorembis">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </div>
+            </div>
+      </div>
+      <div class="background-img-height col-sm-12 col-md-12 col-lg-4 d-flex h-100 d-inline-block" id="img5">
+        <div class="align-self-center ml-auto mr-auto text-center">
+          <p class="dfb">FRESH PRODUCTS</p>
             <div class="lorembis">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </div>
-        </div>
       </div>
-
-      <div class="middleimg rounded text-center">
-        <img src="img.g/532.png" alt="nombre 532" width="550" height="335">
-        <div class="dfb"><p>FRESH PRODUCTS</p>
-          <div class="lorembis">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </div>
-        </div>
       </div>
-
-      <div class="lastimg rounded float-right">
-        <img src="img.g/16.png" alt="nombre 16" width="400" height="325">
-        <div class="dfb"><p>THE BEST FROM THE BEGINNING</p>
-          <div class="lorembis">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </div>
-        </div>
+      <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img6">
+        <div class="align-self-center ml-auto mr-auto text-center">
+          <p class="dfb">THE BEST FROM THE BEGINNING</p>
+            <div class="lorembis">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
       </div>
+      </div>
+    </div>
 
-      <div class="foot rounded text-center mt-2">
-        <img class="logodemerde" src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-4">
+      <div class="foot text-center">
+        <img class="logodemerde" src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-5">
         <hr id="hrdemerde"size=5 color="#cbcbcb" width="100%">
         <span id="gratia">Gratia Restaurant</span>
-        <p class="lorembis mb-4">Copyright 2016. All reserved by symu</p>
+        <p class="lorembis mb-4 mt-2">Copyright 2016. All reserved by symu</p>
         <hr size=3 align="center" color="#cbcbcb" width="8%">
-        <div class="row my-4 justify-content-center">
+        <div class="smaller row my-4 justify-content-center">
           <a target="_blank" href="https://fr-fr.facebook.com/"><img src="img.g/FB.png" alt="logo facebook" class="mx-2"></a>
           <a target="_blank" href="https://twitter.com/explore"><img src="img.g/TW.png" alt="logo twitter" class="mx-2"></a>
           <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" class="mx-2"></a>
         </div>
-      </div>-->
+      </div>
+
+    </div>
 
   </main>
 

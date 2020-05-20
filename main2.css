@@ -125,10 +125,9 @@ html {
   background-position: 50% 33%;
   width: 100%;
   height: auto;
-  /* margin-bottom: 25vh; */
 }
 
-.perfection{
+.titre{
   padding-top: 10vh;
   font-size: 6.5vh;
   font-weight: 600;
@@ -183,16 +182,10 @@ background-position: center;
   font-size: 1.8vh;
 }
 
-#section1{
-  width: 100%;
-  height: auto;
-}
-
 .test{
     display: flex;
     justify-content: center;
     align-self: flex-end;
-  }
 }
 
 .btn-check {
@@ -204,8 +197,6 @@ background-position: center;
   border-color: #cbcbcb;
   overflow: hidden;
   outline:none;
-  /* margin-top: 15vh;
-  margin-bottom: 10vh; */
   height: 5vh;
 }
 
@@ -213,7 +204,6 @@ background-position: center;
 #section2{
   background-image: url("img.g/photo-BG.png");
   background-size: cover;
-
 }
 
 .jumbotron{
@@ -253,33 +243,34 @@ height: 33vh;
 #section3{
   background-image: url("img.g/main-BG.png");
   background-position: 50% 33%;
+  width: 100%;
+  height: auto;
 }
 
-.middleimg{
-  position: relative;
-  text-align: center;
-  color: #D49A63;
-  font-size: 4vh;
-  font-weight: 600;
-  margin-top: 13vh;
+.smaller{
+  margin:0;
+  padding:0;
 }
 
-.lastimg{
-  position: relative;
-  text-align: center;
-  color: #D49A63;
-  font-size: 4vh;
-  font-weight: 600;
-  margin-top: -40vh;
+#img4{
+background-image: url(img.g/4.png);
+background-position: center;
+}
+
+#img5{
+background-image: url(img.g/532.png);
+background-position: center;
+}
+
+#img6{
+background-image: url(img.g/16.png);
+background-position: center;
 }
 
 .dfb {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
   font-size: 2.5vh;
+  color: #D49A63;
+  font-weight: 600;
 }
 
 .logodemerde{
@@ -288,18 +279,25 @@ height: 33vh;
 }
 
 #hrdemerde {
-  transform: translateY(-30px);
+  transform: translateY(-40px);
   position: relative;
   z-index: 1;
 }
 
 #gratia{
   font-weight: bold;
+  margin-bottom: 5vh;
 }
 
 
 @media screen and (max-width: 600px) {
   .test{
     margin-top: 100vh;
+  }
+  .foot{
+    margin-top: 60vh;
+  }
+  #hrdemerde {
+    transform: translateY(-28px);
   }
 }
