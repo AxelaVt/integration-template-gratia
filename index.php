@@ -108,7 +108,7 @@ include "header.php";
 
     <div id="section2" class="vh-100">
       <div class="container h-100 d-flex">
-          <div class="jumbotron-fluid m-auto text-center" style="height:300px; width:600px; background-color: white;">
+          <div class="jumbotron-fluid m-auto text-center" style="height:38vh; width:80vh; background-color: white;">
             <div id="contour">
               <h1 class="details">DETAILS</h1>
                       <p id="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
