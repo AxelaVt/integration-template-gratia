@@ -52,61 +52,63 @@ include "header.php";
       </div>
     </div> -->
 
-
     <div id="section1" class="vh-100 container-fluid">
-      <h1 class="perfection text-center">PERFECTION</h1>
-      <div class="lorem text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </div>
+          <h1 class="perfection text-center">PERFECTION</h1>
+          <div class="lorem text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
 
 
-<div class="row align-items-center d-flex justify-content-between" style="height: 60vh">
-<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-75 d-inline-block" id="img1">
-  <div class="align-self-center ml-auto mr-auto text-center">
-    <p class="dessert-breakfast">DESSERTS</p>
-    <hr size="1" width ="15%" color="#D49A63">
-  <div class="lorembis">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  </div>
-</div>
+          <div class="row align-items-center d-flex justify-content-between" style="height: 60vh">
+          <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img1">
+            <div class="align-self-center ml-auto mr-auto text-center">
+              <p class="dessert-breakfast">DESSERTS</p>
+              <hr size="1" width ="15%" color="#D49A63">
+            <div class="lorembis">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
 
-</div>
-<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-100 d-inline-block" id="img2">
-  <div class="align-self-end ml-auto mr-auto text-center mb-5">
-    <p id="smoothies">SMOOTHIES</p>
-    <hr size="1" width ="15%" color="white">
-    <div id="lor">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </div>
-</div>
-</div>
-<div class="background-img-height col-sm-12 col-md-4 col-lg-3 d-flex h-75 d-inline-block" id="img3">
-  <div class="align-self-center ml-auto mr-auto text-center">
-    <p class="dessert-breakfast">BREAKFAST</p>
-    <hr size="1" width ="15%" color="#D49A63">
-  <div class="lorembis">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  </div>
-</div>
-</div>
-</div>
-
-  <div class="align-self-center ml-auto mr-auto mt-auto text-center">
-  <button type="button" class="btn-check">CHECK OTHER OFFERS</button>
-</div>
-
-
-
-
-    <!-- <div id="section2" class="vh-100 d-flex align-items-center">
-      <div class="jumbotron jumbotron-fluid d-flex text-center py-5" style="width: 100vh; height:50vh; background-color: white;">
-        <div class="container-fluid mx-5 border">
-          <h1 class="details display-4 mt-5 mb-4">DETAILS</h1>
-          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <button type="button" class="btn-check mt-3">PREPARATION OF OUR DISHES</button>
+          </div>
+          <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-100 d-inline-block" id="img2">
+            <div class="align-self-end ml-auto mr-auto text-center mb-5">
+              <p id="smoothies">SMOOTHIES</p>
+              <hr size="1" width ="15%" color="white">
+              <div id="lor">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </div>
+          </div>
+          </div>
+          <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img3">
+            <div class="align-self-center ml-auto mr-auto text-center">
+              <p class="dessert-breakfast">BREAKFAST</p>
+              <hr size="1" width ="15%" color="#D49A63">
+            <div class="lorembis">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+          </div>
         </div>
+    </div>
+          <div class="test">
+            <button type="button" class="btn-prep">CHECK OTHER OFFERS</button>
+          </div>
+
+
+
+
+    <div id="section2" class="vh-100">
+      <div class="container h-100 d-flex">
+          <div class="jumbotron-fluid m-auto text-center" style="height:300px; width:600px; background-color: white;">
+            <div id="contour">
+              <h1 class="details">DETAILS</h1>
+                      <p id="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <button type="button" class="btn-prep">PREPARATION OF OUR DISHES</button>
+            </div>
+
+          </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- <div id="section3" class="vh-100">
 
@@ -154,7 +156,7 @@ include "header.php";
           <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" class="mx-2"></a>
         </div>
       </div>-->
-    </div>
+
   </main>
 
 <?php

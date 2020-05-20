@@ -1,3 +1,4 @@
+
 html {
   scroll-behavior: smooth;
 }
@@ -124,6 +125,7 @@ html {
   background-position: 50% 33%;
   width: 100%;
   height: auto;
+  /* margin-bottom: 25vh; */
 }
 
 .perfection{
@@ -181,6 +183,18 @@ background-position: center;
   font-size: 1.8vh;
 }
 
+#section1{
+  width: 100%;
+  height: auto;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+  }
+}
+
 .btn-check {
   color: #D49A63;
   font-weight: bold;
@@ -188,17 +202,18 @@ background-position: center;
   background-repeat:no-repeat;
   border: solid 1px;
   border-color: #cbcbcb;
-  cursor:pointer;
   overflow: hidden;
   outline:none;
-  margin-top: 15vh;
-  margin-bottom: 10vh;
+  /* margin-top: 15vh;
+  margin-bottom: 10vh; */
   height: 5vh;
 }
+
 
 #section2{
   background-image: url("img.g/photo-BG.png");
   background-size: cover;
+
 }
 
 .jumbotron{
@@ -206,9 +221,33 @@ background-position: center;
   margin-right: auto;
 }
 
+#contour{
+  border: 1px solid #8c8c8c;
+  margin-top: 2vh;
+margin-left: 2vh;
+margin-right: 2vh;
+height: 33vh;
+}
+
 .details{
   font-size: 6.5vh;
   font-weight: 600;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.btn-prep {
+  color: #D49A63;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 1px;
+  border-color: #cbcbcb;
+  overflow: hidden;
+  outline:none;
+  height: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
 }
 
 #section3{
@@ -256,4 +295,11 @@ background-position: center;
 
 #gratia{
   font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+  .test{
+    margin-top: 100vh;
+  }
 }
