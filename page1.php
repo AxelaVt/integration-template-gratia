@@ -3,12 +3,12 @@
 
 
 
-<div id="section1" class="container-fluid">
+<div id="section1">
       <h1 class="titre">PERFECTION</h1>
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 
 
-      <div class="rowSection1" style="height: 60vh">
+      <div class="rowSection1">
       <div id="img1">
         <div class="dessert">
           <p class="dessert-breakfast">DESSERTS</p>
@@ -25,7 +25,7 @@
           <div id="lor">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </div>
-      </div>
+        </div>
       </div>
       <div id="img3">
         <div class="breakfast">
@@ -34,7 +34,7 @@
         <div class="lorembis">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </div>
-      </div>
+        </div>
       </div>
     </div>
 </div>

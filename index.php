@@ -8,7 +8,7 @@ include "header.php";
   <main>
 
     <div class="background1">
-      <div class="nav-column">
+      <div class="nav-column icon-bar">
         <a href="#section1" class="bar">01</a>
         <a href="#section2" class="bar">02</a>
         <a href="#section3" class="bar">03</a>
@@ -56,78 +56,16 @@ include "header.php";
       </div>
 
         <div class="med">
-          <button type="button">BOOK A TABLE</button>
+          <button type="button" class="btn-book">BOOK A TABLE</button>
         </div>
 
     </div>
 
 <?php include "page1.php";?>
+<?php include "page2.php";?>
+<?php include "page3.php";?>
 
-<!--page 3-->
 
-
-    <div id="section2" class="vh-100">
-      <div class="container h-100 d-flex">
-          <div class="jumbotron-fluid m-auto text-center" style="height:38vh; width:80vh; background-color: white;">
-            <div id="contour">
-              <h1 class="details">DETAILS</h1>
-                      <p id="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                      <button type="button" class="btn-prep">PREPARATION OF OUR DISHES</button>
-            </div>
-
-          </div>
-      </div>
-    </div>
-<!--fin de la page 3-->
-<!--page 4-->
-  <div id="section3" class="vh-100">
-
-      <h1 class="titre text-center">HOW WE REACH THIS ?</h1>
-      <div class="lorem text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </div>
-
-      <div class="smaller row align-items-center d-flex justify-content-between mb-5" style="height: 40vh; width:100%">
-      <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img4">
-        <div class="align-self-center ml-auto mr-auto text-center">
-            <p class="dfb">DIFFERENT LOCATIONS</p>
-              <div class="lorembis">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </div>
-            </div>
-      </div>
-      <div class="background-img-height col-sm-12 col-md-12 col-lg-4 d-flex h-100 d-inline-block" id="img5">
-        <div class="align-self-center ml-auto mr-auto text-center">
-          <p class="dfb">FRESH PRODUCTS</p>
-            <div class="lorembis">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </div>
-      </div>
-      </div>
-      <div class="background-img-height col-sm-12 col-md-12 col-lg-3 d-flex h-75 d-inline-block" id="img6">
-        <div class="align-self-center ml-auto mr-auto text-center">
-          <p class="dfb">THE BEST FROM THE BEGINNING</p>
-            <div class="lorembis">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </div>
-      </div>
-      </div>
-    </div>
-<!--fin de la page 4-->
-    <!--  <div class="foot text-center">
-        <img class="logodemerde" src="img.g/logo-b.png" alt="logo" width="5%" height="5%" class="mt-5">
-        <hr id="hrdemerde"size=5 color="#cbcbcb" width="100%">
-        <span id="gratia">Gratia Restaurant</span>
-        <p class="lorembis mb-4 mt-2">Copyright 2016. All reserved by symu</p>
-        <hr size=3 align="center" color="#cbcbcb" width="8%">
-        <div class="smaller row my-4 justify-content-center">
-          <a target="_blank" href="https://fr-fr.facebook.com/"><img src="img.g/FB.png" alt="logo facebook" class="mx-2"></a>
-          <a target="_blank" href="https://twitter.com/explore"><img src="img.g/TW.png" alt="logo twitter" class="mx-2"></a>
-          <a target="_blank" href="https://www.instagram.com/?hl=fr"><img src="img.g/IG.png" alt="logo instagram" class="mx-2"></a>
-        </div>
-      </div> -->
-
-    </div>
 
   </main>
 
