@@ -1,8 +1,27 @@
 
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue light';
+    src: url('../fonts/HelveticaNeue Light.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
 
+body{
+  font-family: 'Helvetica Neue', sans-serif;
+}
 
 /*navbar*/
 
@@ -454,37 +473,10 @@ background-position: center;
 }
 */
 
-@media screen and (max-width: 640px) {
-  .prev, .next{
-    font-size: 2rem;
-    height:50px;
-    line-height: 50px;
-  }
-  img.img{
-    width: 200px;
-  }
-
-
-}
-
-@media screen and (max-width: 1024px ){
-
-  .prev, .next{
-    font-size: 6rem;
-    height:200px;
-    line-height: 200px;
-  }
-  img.img{
-    width: 500px;
-  }
-
-  }
-
-
 
 /*footer*/
 
-.foot{
+div#foot.foot{
   text-align: center;
 }
 
@@ -513,3 +505,44 @@ background-position: center;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
+
+
+
+@media screen (max-width: 640px) {
+  .prev, .next{
+    font-size: 2rem;
+    height:50px;
+    line-height: 50px;
+  }
+  .img{
+    display: none;
+  }
+
+  .rowSection1{
+    height:100vh;
+    width:100vw;
+    flex-direction: column;
+  }
+
+  #img1,
+  #img2,
+  #img3 {
+    align-self: stretch;
+  }
+  .smoothie{
+    align-items: flex-start;
+  }
+}
+
+@media screen (max-width: 1024px ){
+
+  .prev, .next{
+    font-size: 6rem;
+    height:200px;
+    line-height: 200px;
+  }
+  img.img{
+    width: 500px;
+  }
+
+  }

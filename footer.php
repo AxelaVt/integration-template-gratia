@@ -1,6 +1,6 @@
 
 
-  <div class="foot">
+  <div class="foot" style="text-align:center" id="foot">  <!--text-align ici car ne fonctionne pas dans css-->
     <img class="logodemerde" src="img.g/logo-b.png" alt="logo">
     <hr id="hrdemerde"size=5 color="#cbcbcb" width="100%">
     <span id="gratia">Gratia Restaurant</span>
