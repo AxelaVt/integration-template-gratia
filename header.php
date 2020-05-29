@@ -8,31 +8,27 @@
   <title>Gratia</title>
   <link rel="stylesheet" href="main2.css">
   <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <header>
-
   <nav class="navbar">
     <div class="navbar-brand" ><a href="#"><img src="img.g/logo.png" alt="logo gratia"> Gratia</a>
     </div>
-    <div class="navbar-collapse">
-      <div class="navbar-nav">
-
-          <div class="nav-item active">
-            <a class="nav-link" href="#">About</a>
-          </div>
-          <div class="nav-item active">
-            <a class="nav-link" href="#">Menu</a>
-          </div>
-          <div class="nav-item active">
-            <a class="nav-link" href="#">Gallery</a>
-          </div>
-          <div class="nav-item active">
-            <a class="nav-link" href="#">Contact</a>
-          </div>
-
-      </div>
+    <div class="topnav" id="myTopnav">
+      <a href="#About" class="active">About</a>
+      <a href="#Menu">Menu</a>
+      <a href="#Gallery">Gallery</a>
+      <a href="#Contact">Contact</a>
     </div>
-</nav>
+    <div>
+      <a href="javascript:void(0);" class="icon" onclick="affichMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+
+
 
 </header>

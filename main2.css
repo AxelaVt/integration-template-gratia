@@ -20,11 +20,13 @@ html {
 }
 
 body{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue' arial, sans-serif;
 }
 
 /*navbar*/
-
+a.icon, i.fa.fa-bars {
+display: none;
+}
 
 .navbar {
   display: flex;
@@ -32,36 +34,52 @@ body{
   align-items: stretch;
   background-color: #141B2A;
   padding: 5vh;
-  border-bottom: grey 1px solid;
 }
 
 .navbar-brand img{
   vertical-align: middle;
 }
 
-.navbar a {
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
-}
-
 .navbar-brand {
   align-self: flex-start;
   flex:2;
   }
+.navbar-brand a{
+  text-decoration: none;
+  color: white;
+}
 
-.navbar-collapse{
-  flex:10;
-  display: flex;
-  justify-content: flex-end;
+body {
+  margin: 0;
+  font-family: Helvetica Neue, Arial, sans-serif;
 }
-.navbar-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
+.topnav {
+  overflow: hidden;
+  background-color: #141B2A;
 }
-.nav-item {
-  padding-right: 10%;
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 
@@ -106,12 +124,9 @@ body{
 }
 
 .bar:hover {
-  /*align-items: flex-end;*/
   justify-content: center;
   display: flex;
-  /*border-bottom: 0.05em solid;*/
   text-decoration: underline;
-  /*padding-bottom: -2vh;*/
 }
 
 
@@ -203,9 +218,6 @@ button{
   justify-content: flex-end;
   flex-wrap: nowrap;
 }
-
-
-
 
 
 /* ----- sections ----- */
@@ -364,8 +376,6 @@ background-position: center;
   margin-bottom: 2vh;
 }
 
-
-
 .details{
   font-size: 6.5vh;
   font-weight: 600;
@@ -508,14 +518,47 @@ div#foot.foot{
 
 
 
-@media screen (max-width: 640px) {
-  .prev, .next{
-    font-size: 2rem;
-    height:50px;
-    line-height: 50px;
+
+
+@media screen and (min-width: 768px ) and (max-width: 1024px ){
+
+/*page acceuil*/
+
+  a.icon, i.fa.fa-bars {
+  display: none;
   }
-  .img{
-    display: none;
+  .prev, .next{
+    margin: 5vh;
+    font-size: 6rem;
+    height:200px;
+    line-height: 200px;
+  }
+  img.img{
+    width: 500px;
+  }
+  .nav-column{
+    display:none;
+  }
+
+  div.med{
+    margin-right: 2vw;
+  }
+
+  div.container1{
+    margin-bottom: 0;
+  }
+
+  div.box{
+    margin-left: 36vw;
+  }
+
+  .background1{
+    height: 60vh;
+  }
+
+  /*section1*/
+  .lorem {
+    padding-bottom: 5vw;
   }
 
   .rowSection1{
@@ -524,25 +567,395 @@ div#foot.foot{
     flex-direction: column;
   }
 
-  #img1,
-  #img2,
-  #img3 {
-    align-self: stretch;
-  }
   .smoothie{
     align-items: flex-start;
   }
+
+  #img2{
+    align-self: center;
+  }
+
+  #img1, #img2, #img3{
+    height: 30vh;
+    width: 50vw;
+    align-self: stretch;
+    align-self: center;
+  }
+  #lor{
+    font-size: 0.8rem;
+  }
+
+  #hrdemerde{
+    transform: translateY(-36px);
+  }
+
+  /*section2*/
+
+  #section2{
+    height: 75vh;
+  }
+  .container2{
+    height: 34vh;
+  }
+
+  /*section 3 */
+
+  h1.titre{
+    font-size: 5vh;
+  }
+
+  .rowSection3{
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #img5{
+    align-self: center;
+  }
+
+  #img4, #img5, #img6{
+    height: 20vh;
+    width: 80vw;
+  }
+
 }
 
-@media screen (max-width: 1024px ){
+
+@media screen and (min-width: 360px ) and (max-width: 639px ){
+
+  /*navbar*/
+
+.topnav a{
+  display: none;
+}
+.topnav a:hover{
+  background: #141B2A;
+  color: white;
+}
+a.icon, i.fa.fa-bars{
+  display: contents;
+}
+
+.topnav a.icon {
+  display: contents;
+   float: right;
+   display: block;
+}
+ .topnav.responsive {
+  position: relative;
+}
+ .topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+i.fa.fa-bars{
+  font-size: 30px;
+  color: white;
+  background: #141B2A;
+}
+
+/*page acceuil*/
+    .prev, .next{
+      font-size: 4rem;
+      line-height: 100px;
+      margin-right: 2vw;
+      margin-left: 2vw;
+    }
+    .next{
+      margin-right: 2vw;
+    }
+    img.img{
+      width: 200px;
+    }
+    .nav-column{
+      display:none;
+    }
+
+    div.container1{
+      margin-bottom: 10vh;
+      flex-direction: column;
+    }
+    .fleche{
+      margin-left: 0;
+    }
+
+    .med{
+      justify-content: center;
+    }
+
+    div.box{
+      text-align: center;
+      flex:0;
+      margin-left: 0;
+
+    }
+
+    .background1{
+      height: 40vh;
+    }
+
+
+    /*section1*/
+    .lorem {
+      padding-bottom: 5vw;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .lorembis{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .rowSection1{
+      height:100vh;
+      width:100vw;
+      flex-direction: column;
+    }
+
+    h1.details{
+      font-size: 4vh;
+    }
+    .smoothie{
+      align-items: flex-start;
+    }
+
+    #img2{
+      align-self: center;
+    }
+
+    #img1, #img2, #img3{
+      height: 30vh;
+      width: 80vw;
+      align-self: stretch;
+      align-self: center;
+    }
+    #lor{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    /*section2*/
+
+    #section2{
+      height: 75vh;
+
+    }
+    .container2{
+      height: 34vh;
+      width:70vw;
+    }
+
+    /*section 3 */
+
+    h1.titre{
+      font-size: 4vh ;
+    }
+
+    .rowSection3{
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #img5{
+      align-self: center;
+    }
+
+    #img4, #img5, #img6{
+      height: 20vh;
+      width: 80vw;
+    }
+
+    .btn-prep{
+      font-size: xx-small;
+    }
+
+
+    img.logodemerde{
+      width: 10%;
+      height: 10%;
+    }
+    .foot .logodemerde{
+      width: 10%;
+      height: 10%;
+    }
+
+    #hrdemerde{
+      transform: translateY(-32px);
+    }
+
+  }
+
+  @media screen and (min-width: 639px ) and (max-width: 767px ){
+
+    /*navbar*/
+  .topnav a{
+    display: none;
+  }
+  a.icon, i.fa.fa-bars {
+    display: contents;
+  }*/
+  .topnav a:hover{
+    background: #141B2A;
+    color: white;
+  }
+
+  .topnav a.icon {
+    display: contents;
+     float: right;
+     display: block;
+  }
+   .topnav.responsive {
+    position: relative;
+  }
+   .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  i.fa.fa-bars{
+    font-size: 30px;
+    color: white;
+    background: #141B2A;
+  }
+
+
+/*page acceuil*/
 
   .prev, .next{
-    font-size: 6rem;
-    height:200px;
-    line-height: 200px;
+    font-size: 4rem;
+    line-height: 100px;
+    margin-right: 2vw;
+    margin-left: 2vw;
   }
-  img.img{
-    width: 500px;
+  .next{
+    margin-right: 2vw;
   }
+    img.img{
+      width: 200px;
+    }
+    .nav-column{
+      display:none;
+    }
+
+    div.container1{
+      margin-bottom: 10vh;
+      flex-direction: column;
+      margin-top: -36vh;
+    }
+    .fleche{
+      margin-left: 0;
+    }
+
+    .med{
+      justify-content: center;
+
+    }
+
+    div.box{
+      text-align: center;
+      flex:0;
+      margin-left: 0;
+
+    }
+
+    .background1{
+      height: 70vh;
+    }
+
+
+    /*section1*/
+    .lorem {
+      padding-bottom: 5vw;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .lorembis{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .rowSection1{
+      height:100vh;
+      width:100vw;
+      flex-direction: column;
+    }
+
+    h1.details{
+      font-size: 4vh;
+    }
+    .smoothie{
+      align-items: flex-start;
+    }
+
+    #img2{
+      align-self: center;
+    }
+
+    #img1, #img2, #img3{
+      height: 30vh;
+      width: 50vw;
+      align-self: stretch;
+      align-self: center;
+    }
+    #lor{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    /*section2*/
+
+    #section2{
+      height: 75vh;
+    }
+    .container2{
+      height: 41vh;
+      width: 70vw;
+    }
+
+    /*section 3 */
+
+    h1.titre{
+      font-size: 4vh ;
+    }
+
+    .rowSection3{
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    #img5{
+      align-self: center;
+    }
+
+    #img4, #img5, #img6{
+      height: 20vh;
+      width: 80vw;
+    }
+
+    .btn-prep{
+      font-size: xx-small;
+    }
+
+    img.logodemerde{
+      width: 10%;
+      height: 10%;
+    }
+    .foot .logodemerde{
+      width: 6%;
+      height: 6%;
+    }
+
+    #hrdemerde{
+      transform: translateY(-32px);
+    }
 
   }

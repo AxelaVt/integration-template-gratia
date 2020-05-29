@@ -41,6 +41,16 @@
     dots[slideIndex-1].className += " active";
   }
   </script>
+  <script>
+  function affichMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
 </body>
 
